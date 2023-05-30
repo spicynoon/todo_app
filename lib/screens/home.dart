@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: tdItem,
                       boxShadow: const [
                         BoxShadow(
                           color: Colors.grey,
@@ -167,7 +167,7 @@ class _HomeState extends State<Home> {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 15),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color:tdItem,
         borderRadius: BorderRadius.circular(20),
       ),
       child: TextField(

@@ -30,7 +30,7 @@ class ToDoItem extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
         ),
         contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-        tileColor: Colors.white,
+        tileColor: tdItem,
         leading: Icon(
           todo.isDone ? Icons.check_box : Icons.check_box_outline_blank,
           color: tdBlue,
@@ -53,7 +53,7 @@ class ToDoItem extends StatelessWidget {
             borderRadius: BorderRadius.circular(5),
           ),
           child: IconButton(
-            color: Colors.white,
+            color: tdItem,
             iconSize: 18,
             icon: Icon(Icons.delete),
             onPressed: () {
